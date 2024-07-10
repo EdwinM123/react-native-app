@@ -16,7 +16,7 @@ export default function HomeScreen() {
         <ThemedText type="title">Rayan Omar App</ThemedText> 
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Quotes</ThemedText>
+        <ThemedText type="subtitle">"What does Rayan Omar mean to you?"</ThemedText>
         <ThemedText>
           "But I...Wanna be a Hero Too! Like Rayan Omar!" - Dylan Hoang 2023{"\n\n"}
           "I will kill Rayan Omar!" - Kenneth Khoi Nguyen-Tran 1986{"\n\n"}
