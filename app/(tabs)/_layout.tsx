@@ -17,18 +17,27 @@ export default function TabLayout() {
       <Tabs.Screen
         name="index"
         options={{
-          title: 'Home',
+          title: 'Rayan Omar: The Idea',
           tabBarIcon: ({ color, focused }) => (
             <TabBarIcon name={focused ? 'home' : 'home-outline'} color={color} />
           ),
         }}
       />
       <Tabs.Screen
-        name="explore"
+        name="rivalry"
         options={{
-          title: 'Explore',
+          title: 'Rivalry with Munoz',
           tabBarIcon: ({ color, focused }) => (
             <TabBarIcon name={focused ? 'code-slash' : 'code-slash-outline'} color={color} />
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="lifestory"
+        options={{
+          title: 'Rayan Omar: The Man',
+          tabBarIcon: ({color, focused})=>(
+            <TabBarIcon name={focused ? 'airplane' : 'airplane'} color={color} />
           ),
         }}
       />

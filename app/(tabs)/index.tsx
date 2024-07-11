@@ -14,7 +14,7 @@ export default function HomeScreen() {
         />
       }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Rayan Omar App</ThemedText> 
+        <ThemedText type="title">Rayan Omar: The Idea</ThemedText> 
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">"What does Rayan Omar mean to you?"</ThemedText>
